@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+        <script src="menu.js" defer ></script>
+        
+        <title>Portifólio Pessoal</title>
+    </head>
+
+    <body>
+        <section class="menu">
+            <header>
+                <div class="cabecalho">
+                    <div class="logo">   
+                        <img src="assets/vector.png" alt="Desenho Estrelas">
+                        <h3 class="cabecalho__nome">Adriana Reis</h3>       
+                    </div>
+
+                    <div class="btn-abrir-menu" id="btn-menu">
+                        <img src="assets/menu.png" height="45" width="45">
+                    </div>
+
+                    <nav class="menu__desktop">
+                        <ul>
+                            <li><a href="#sobre-mim">Sobre mim</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#hobbies">Hobbies</a></li>
+                            <li><a href="#formacoes-cursos">Formações e Cursos</a></li>
+                            <li><a href="#experiencia">Experiência</a></li>
+                            <li><a href="#"><strong>areis3347@gmail.com</strong></a></li>           
+                        </ul>  
+                    </nav>
+                </div>
+            </header>
+        </section>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i> <button><img src="assets/fechar.png" height="12" width="12"></button> </i>
+            </div>
+
+            <nav>
+                <ul class="separator">
+                    <li><a href="#sobremim" class="btn btn-secondary">Sobre mim</a></li>
+                    <li><a href="#skills" class="btn btn-secondary">Skills</a></li>
+                    <li><a href="#hobbies" class="btn btn-secondary">Hobbies</a></li>
+                    <li><a href="#formacao" class="btn btn-secondary">Formações e Cursos</a></li>
+                    <li><a href="#xp" class="btn btn-secondary">Experiência</a></li>
+                    <li><a href="#contato" class="btn btn-secondary">Contato</a></li>
+                </ul>   
+            </nav>
+        </div>
+
+           <div class="overlay-menu" id="overlay-menu"></div>
+
+
+        <main> 
+
+            <section class="titulo">
+                <img class="titulo-principal" src="assets/foto curriculo.png" >
+                    <div class="title__container" id="#sobremim">    
+                        <h2 class="titulo__bio">Olá, meu nome é Adriana Dos Reis e estou estudando na Alura para desenvolvimento Front-End</h2>
+                        <h3 class="titulo__descricao">Faço faculdade de Gestão em Tecnologia da Informação e atualmente estou participando no projeto Oracle ONE na Alura.</h3>
+
+                            <ul class="titulo__network">
+                                <li class="titulo__network__item"> <a href=""><img src="redes sociais/github.svg" width="40" height="40"> Github </a></li>
+                                <li class="titulo__network__item"> <a href=""><img src="redes sociais/linkedin.svg" width="40" height="40">Linkedin </a></li>
+                                <li class="titulo__network__item"> <a href=""><img src="redes sociais/instagram.svg" width="40" height="40">Instagram </a></li>
+                                <li class="titulo__network__item"> <a href=""><img src="redes sociais/whatsapp.svg" width="40" height="40">whatsapp </a></li>
+                            </ul>
+                    </div>   
+            </section>
+
+            <section class="sobre">
+                <div class="sobre-interface">
+                    <h3 class="sobre-titulo">Sobre mim</h3>
+                    <p class="sobre-paragrafo">Sou de Salvador e sempre gostei de tecnologia mas nunca soube de como  como era feito sites, jogos e aplicativos e assim começei a aprofundar mais sobre o assunto assistindo vídeos e participando de workshops.  </p>
+                    <p class="sobre-paragrafo">Nunca trabalhei na área de tecnologia, mas tenho me dedicado aos estudos e realizando projetos para aprimorar o conhecimento e assim conseguir trabalhar na área. Me identifquei na área de Front-End pois já realizei curso de computação gráfica e gosto de criar layouts. E assim conheci o programa da Alura One Oracle que está me ajudando a desenvolver na área escolhida. </p>    
+                </div>
+            </section>
+
+
+            <section class="especialidades">
+                <div class="interface">
+                    <h2 class="titulo__especialidade">Minhas <span>Especialidades</span></h2>
+                    <div class="flex">
+                        <div class="especialidades-box">
+                            <li class="skills__img"><img src="cursos/html5.svg" width="50"></li>
+                            <h3>HTML5</h3>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <li class="skills__img"><img src="cursos/javascript.svg" width="50" alt=""></li>
+                            <h3>JavaScript</h3>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <li class="skills__img"><img src="cursos/idiomas.svg"  width="50" alt=""></li>
+                            <h3>Idioma</h3>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <li class="skills__img"><img src="cursos/node.svg"  width="50"></li>
+                            <h3>Node</h3>
+                        </div>
+
+                        <div class="especialidades-box">
+                            <li class="skills__img"><img src="cursos/java.svg" width="50"></li>
+                            <h3>Java</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+                                                   
+            <section class="hobbies">
+                <div class="interface">
+                        <h2 class="titulo__hobbies">Meus <span>Hobbies</span></h2>
+                    <div class="flex">
+                        <div class="hobbies-box">
+                            <li class="hobbies__img"><img src="hobby/game.svg" width="50"></li>
+                            <h3>Game</h3>
+                        </div>
+                
+                        <div class="hobbies-box">
+                            <li class="hobbies__img"><img src="hobby/musica.svg" width="50" alt=""></li>
+                            <h3>Ouvir música</h3>
+                        </div>
+                
+                        <div class="hobbies-box">
+                            <li class="hobbies__img"><img src="hobby/filme.svg"  width="50" alt=""></li>
+                            <h3>Séries</h3>
+                        </div>
+            
+                        <div class="hobbies-box">
+                            <li class="hobbies__img"><img src="hobby/design.svg"  width="50"></li>
+                            <h3>Desenhar</h3>
+                        </div>
+                
+                        <div class="hobbies-box">
+                            <li class="hobbies__img"><img src="hobby/livros.svg"  width="50"></li>
+                            <h3>Ler livros</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+        
+            <section class="academic">
+                <h2 class="academico__titulo" id="formacao">Formação acadêmica</h2>
+                    <div class="academic__courses">
+                        <div class="academic__courses__box">
+                            <ul class="academic__courses__list">
+                                <li class="academic__courses__item__img"><img src="assets/unifacs.png" height="250" width="250"></li>
+                                <li class="academic__courses__item__title"><h4>Gestão em Tecnologia da Informação</h4></li>
+                                <li class="academic__courses__item__subtitle"><p>2022 - Em andamento<p></li>
+                            </ul>
+                        </div>
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets/oracle-D-aGa2CU.png" height="200" width="200"></li>
+                            <li class="academic__courses__item__title"><h4>Formação Front-End</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>Oracle + Alura Em andamento</p></li>
+                        </ul>
+                    </div>
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets/saga.jpg" height="250" width="250"></li>
+                            <li class="academic__courses__item__title"><h4>Computação Gráfica</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>Formação - 2021</p></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="academic">
+                <div class="academic__courses">
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets/senac.png" height="250" width="250"></li>
+                            <li class="academic__courses__item__title"><h4>Desenvolvedor de Jogos Eletrônicos
+                            </h4></li>
+                            <li class="academic__courses__item__subtitle"><p>Conclusão  junho de 2022<p></li>
+                        </ul>
+                    </div>
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets/softwell.jpeg" height="200" width="200"></li>
+                            <li class="academic__courses__item__title"><h4>Capacitação ferramenta Maker No-Code</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>Conclusão fevereiro de 2023</p></li>
+                        </ul>
+                    </div>
+                    <div class="academic__courses__box">
+                        <ul class="academic__courses__list">
+                            <li class="academic__courses__item__img"><img src="assets/senac.png" height="250" width="250"></li>
+                            <li class="academic__courses__item__title"><h4>Programador de Sistemas</h4></li>
+                            <li class="academic__courses__item__subtitle"><p>Conclusão setembro de 2022</p></li>
+                        </ul>
+                    </div>
+                
+                </div>
+            </section>
+            
+
+        
+            <section class="experience">
+                <h2 class="experience__section__title" id="xp">Experiência Profissional</h2>
+                <div class="experiencie__box">
+                    <img class="experience__img" src="assets/descriptografia.png" height="600" width="1000">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Decodificador de texto</h2>
+                        <h3 class="experience__text">Challenge Alura Codificador </h3>
+                            <div class="experience__description">
+                                <span class="experience__repo"><a href="https://adrianarcosta.github.io/projeto-challenge-adriana/"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>  
+                
+
+                <div class="experiencie__box">
+                    <img class="experience__img" src="assets/portifólio.png" height="600" width="1000">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Portifólio</h2>
+                        <h3 class="experience__text">Challenge Alura </h3>
+                            <div class="experience__description">
+                                <span class="experience__repo"><a href="https://portif-ofrgfjgrm-adriana-reis-s-projects.vercel.app/"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>  
+
+                <div class="experiencie__box">
+                    <img class="experience__img" src="assets/jogo numero secreto.png" height="600" width="1000">
+                    <div class="experience__info">
+                        <h2 class="experience__title">Jogo do Número Secreto</h2>
+                        <h3 class="experience__text">Challenge Alura</h3>
+                            <div class="experience__description">
+                                <span class="experience__repo"><a href=""><button class="experiencia__botao--repo">Repositório</button></a></span>
+                                <span class="experience__demo"><a href=""><button class="experiencia__botao--demo">Ver demo</button></a></span>
+                            </div>
+                    </div>
+                </div>  
+   
+                <section class="contato">   
+                    <h2 class="experience__section__title" id="xp">Contato</h2>
+                        <h3 class="contato__texto">Quer entrar em contato comigo?</h3>
+                        <h3 class="contato__texto">Preencha o formulário a baixo e entrarei em contato o mais rápido possível. </h3>
+                                                                                
+                            <div class="form-container">
+                                <form id="contact-form">
+                                    <div class="form-group">
+                                        <label for="name">Nome:</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject">Assunto:</label>
+                                        <input type="text" id="subject" name="subject" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Escreva sua mensagem:</label>
+                                        <textarea id="message" name="message" rows="5" required></textarea>
+                                    </div>
+                                        <button type="submit">Enviar Mensagem</button>
+                                </form>
+                                    
+                            </div>
+                </section>
+        </main>
+            
+
+            <section class="footer">
+                <div class="footer__rodape">
+                    <p>Desenvolvido por Adriana Dos Reis</p>
+                    <p>Todos os direitos reservados - © 2024.</p>
+                </div>
+            </section>
+       
+             <script src="validacao.js"></script>
+    </body>
+</html>
